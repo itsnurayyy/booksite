@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f6f4e9;
+    width: 100%;
+}
+
+
+.container_reg
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    background: #fff;
+    padding: 45px;
+    box-sizing: border-box;
+    border :1px solid rgba(0,0,0,.1);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.container_reg h1
+{
+    
+    margin: 0 0 40px;
+    padding: 0;
+     color: #1e0f02;
+    font-size: 36px;
+    font-family: 'Charm', cursive;
+    font-style: normal;
+    font-weight: 400;
+}
+.container_reg input
+{
+    padding: 5px;
+    margin-bottom: 30px;
+    width: 55%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid #999;
+}
+.container_reg input[type="submit"]
+{
+    border-radius: 25px;
+    font-size: 20px;
+    height: 40px;
+    cursor : pointer;
+    background: #e9822b;
+    color: #fff;
+    margin-bottom: 0;
+}
+.container_reg input[type="submit"]:hover
+{
+    background:#1e0f02;
+    color: #fff;
+}
+.container_reg form div
+{
+    position: relative;
+}
+.container_reg form div label
+{
+    position: absolute;
+    top: 3px;
+    pointer-events: none;
+    left: 0;
+    transition: .5s;
+}
+.container_reg input:focus ~label,
+.container_reg input:valid ~label{
+    left: 0;
+    top: -20px;
+    color: #1e0f02;
+    font-size: 12px;
+    font-weight: bold;
+}
+.container_reg input:focus,
+.container_reg input:valid
+{
+    border-bottom: 2px solid #1e0f02;
+}
+.error_form
+{
+    top: 12px;
+    color: rgb(216, 15, 15);
+    font-size: 15px;
+    font-family: Helvetica;
+}
+

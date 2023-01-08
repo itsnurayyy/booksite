@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Book</title>
+       <link rel="stylesheet"  href="details1.css">
+
+<link rel="icon" href="image/logo.png">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Charm&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+<body>
+<div class="navbar">
+            <div class="logo">
+            <img src="image/logo.png" class="logo-icon">
+            <h1 class="logo-text">Martin's Bookshop</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                <li><a href="home.html">HOME</li>
+                <li><a href="about.html">ABOUT</li>
+                <li><a href="#">BOOKS</li>
+                <li><a href="blog.html">BLOG</li>
+                <li><a href="contact.html">CONTACT US</li>
+                </ul>
+            </div>
+            <div class="search">
+            <input class="srch" type="search" name="" placeholder="Search books,authors...">
+            <a href="#"><button class="btnn">Search</button></a>
+            </div>
+            </div>
+            <div class="details1">
+            <div class="img-d1">
+            	<img src="image/cover1.jpg">
+              <a href="rate.html" class="rate">Rate the book</a>
+            </div>
+
+
+            <div class="det1">
+            	<h1>The 1619 Project: A New Origin Story</h1>
+
+            	<h4>The New York Times Magazine (Editor)  Caitlin Roper (Editor)  & 3 more<br><br>Format:</h4>
+            	<div class="hardcover"><h4>Hardcover</h4><p>English<br>25$</p></div>
+            	<div class="paperback"><h4>Paperback</h4><p>English, Large print<br>21,5$</p></div>
+              <br>
+              <br>
+            	<h3 class="ava"><strong>AVAILABLE</strong></h3>
+              <br>
+            	<h4 href="https://www.yumpu.com/fr/document/read/65966656full-download-pdf-the-1619-project-a-new-origin-story">GET THE E-BOOK</h4>
+              <br>
+            	<h4>GET THE AUDIO BOOK</h4>
+            	<br>
+<br>
+
+<br>
+
+
+            	<h1>Description</h1>
+<br>
+              <h3><stronger>#1 NEW YORK TIMES BESTSELLER</stronger> - A dramatic expansion of a groundbreaking work of journalism, The 1619 Project: A New Origin Story offers a profoundly revealing vision of the American past and present.</h3>
+              <br>
+              <p>In late August 1619, a ship arrived in the British colony of Virginia<br>bearing a cargo of twenty to thirty enslaved people from Africa. Their arrival<br> led to the barbaric and unprecedented system of American chattel slavery <br>that would last for the next 250 years. This is sometimes referred to as<br> the country's original sin, but it is more than that: It is the source of so<br> much that still defines the United States.<br>
+The New York Times Magazine's award-winning "1619 Project" issue reframed our understanding <br>of American history by placing slavery and its continuing legacy at the center of our <br>national narrative. This new book substantially expands on that work, weaving together <br>eighteen essays that explore the legacy of slavery in present-day America with thirty-six <br>poems and works of fiction that illuminate key moments of oppression, struggle, and<br>resistance. The essays show how the inheritance of 1619 reaches into every part of <br>contemporary American society, from politics, music, diet, traffic, and citizenship to <br>capitalism, religion, and our democracy itself.</p>
+            </div>
+
+              </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="footer-container">
+                  <div class="footer">
+                      <div class="footer-content  column1">
+                        <h2>Information
+                            <hr></h2>
+
+                        <a href="#">Returns Policy</a>
+                        <a href="#">Terms&Condition</a>
+                        <a href="#">Delivery Information</a>
+                        <a href="#">Privacy & Cookies Policy</a>
+                        
+
+                      </div>
+                      <div class="footer-content  column2">
+                        <h2>Media<hr></h2>
+                          <a href="#">VK</a>
+                        <a href="#">Twiiter</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                      </div>
+                      <div class="footer-content  column3">
+                        <h2>Useful Links <hr></h2>
+                          <a href="#">Home</a>
+                        <a href="#">About us</a>
+                        <a href="#">Books</a>
+                        <a href="#">Blog</a>
+                      </div>
+                      <div class="footer-email">
+                          <h2>Newsletter <hr></h2>
+                          <input type="email" placeholder="Type your email address" id="footer-email">
+                          <input type="submit" value="Sign Up" id="footer-submit">
+                      </div>
+                       
+                  </div>
+              </div>
+              <script>
+      const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      const editBtn = document.querySelector(".edit");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = ()=>{
+          widget.style.display = "block";
+          post.style.display = "none";
+        }
+        return false;
+      }
+    </script>
+   
+</body>
+</html>

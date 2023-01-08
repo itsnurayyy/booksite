@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f6f4e9;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color: #1e0f02;
+
+    
+}
+.logo-icon{
+    position: absolute;
+    height: 87px;
+    width: 100px;
+ }
+ 
+.logo-text{
+    color: #fff;
+    font-size: 28px; 
+    font-family: 'Charm', cursive;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 105px;
+    padding-top: 25px;
+}
+.logo{
+    float: left;
+    width: 305px;
+    height: 90px;
+}
+.menu{
+    width:510px;
+    float: left;
+    height: 90px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Crimson Pro', serif;
+    
+
+}
+ul li a:hover{
+    color: #ea822b;
+}
+.search{
+    width: 355px ;
+    float: left;
+    margin-left: 70px;
+}
+.srch{
+    width: 230px;
+    height: 40px;
+    font-family: 'Crimson Pro', serif;
+    background: transparent;
+    border: 1px solid #ea822b;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    border-right: none;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.srch::placeholder{
+    color: lightgray;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    background: #ea822b;
+    border: none;
+    font-family: 'Crimson Pro', serif;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 16px;
+    border-bottom-left-radius: 1.5px;
+    border-top-left-radius: 1.5px;
+}
+
+.footer-container{
+    background-color: #1e0f02;
+    padding-bottom: 64px;
+    margin-top: 100%;
+     
+}
+.footer{
+    width: 100%;
+    height: 240px;
+    background-color: #1e0f02;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+.blog-header{
+    
+}
+.blog-header h2{
+text-align: center;
+    font-size: 43px;
+    font-family: 'Charm', cursive;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.blog-header hr{
+    background-color: #311e06;
+    position: absolute;
+    width: 95%;
+    margin-left: 30px;
+}
+.blog-details{
+    width: 400px;
+    height: 300px;
+position: absolute;
+margin-top: 50px;
+}
+.blog-details h2{
+    color: #311e06;
+    font-size: 38px;
+    font-family: 'Charm', cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    padding-left: 30px;
+}
+
+.blog-details p{
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 14px;
+}
+.blog{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+     
+     margin-top: 60px;
+     margin-left: 400px;
+}
+.blog p{
+
+    text-align: left;
+    font-family: 'Crimson Pro', serif;
+    color: #311e06;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.blog span{
+    color: #1e0f02;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    margin-right: 120px;
+}
+.footer-content h2{
+    margin-top: 65px;
+    margin-bottom: 40px;
+    color: #e9822b;
+    font-family: 'Crimson Pro', serif;
+    font-size: 21px;
+}
+.footer-content a{
+    color: #fff;
+    text-decoration: none;   
+    margin-bottom: 10px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 15px;
+
+}
+
+.footer-content a:hover{
+    color: #ea822b;
+
+}
+.footer-content hr{
+    width: 3%;
+
+    margin-left: 0px;
+    margin-top: 9px;
+
+}
+.footer-email h2{
+    margin-top: 65px;
+    margin-bottom: 35px;
+    color: #ea822b;
+    font-size: 21px;
+}
+.footer-email hr{
+width: 3%;
+    margin-left: 0px;
+    margin-top: 9px;
+
+}
+#footer-email{
+    width: 300px;
+    height: 35px;
+    background: transparent;
+    border: 0.5px solid lightgray;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Crimson Pro', serif;
+    padding-left: 13px;
+    padding-bottom: 1.5px;
+    color: #fff;
+    
+    
+}
+#footer-email::placeholder{
+    color: #fff;
+}
+#footer-email:hover{
+     border: 1px solid #e9822b ;
+}
+#footer-submit{
+     width: 75px;
+    height: 38px;
+    background: #e9822b;
+    border: none;
+    color: #fff;
+   font-family: 'Crimson Pro', serif;
+   font-size: 14px;
+   font-weight: bold;
+
+
+}
+#footer-submit:hover{
+    border: 1px solid #e9822b ;
+}
